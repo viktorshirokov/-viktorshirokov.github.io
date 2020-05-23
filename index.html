@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Мой опрос</title>
-  </head>
-  <body>
-    <h1>Опрос</h1>
-    <hr>
-    <label>Имя:<br><input type="text" name="username" value=""></label>
-    <br>
-    Что вы предпочитаете?:
-    <br>
-    <input type="radio" name="yap" value="Шоколад">
-    Шоколад
-    <br>
-    <input type="radio" name="yap" value="Мармелад">
-    Мармелад
-    <br>
-    <input type="radio" name="yap" value="Чипсы">
-    Чипсы
-    <br>
-    <input type="reset" value="Очистить">
-		<input type="submit" value="Отправить">
-    <hr>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Мой опрос</title>
+	</head>
+
+	<body>
+		<h3>Опрос</h3>
+		<hr>
+		
+		<form>
+			<label>Имя:<br>
+			<input type="text" name="name" placeholder="">
+			</label>
+
+			<p>Язык программирования:
+			<br>
+			<label>
+			<input type="radio" name="prog_lang" value="Шоколад">Шоколад
+			</label>
+			<br>
+			<label>
+			<input type="radio" name="prog_lang" value="Мармелад">Мармелад
+			</label>
+			<br>
+			<label>
+			<input type="radio" name="prog_lang" value="Чипсы">Чипсы
+			</label>
+			</p>
+			<br><br>
+			<input type="submit" value="Отправить">
+			<input type="reset" value="Очистить">	
+		</form>
+		<br>
+		<hr>
+	</body>
 </html>
